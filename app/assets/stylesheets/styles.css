@@ -73,6 +73,16 @@ h2 {
   color: #39d52d;
 }
 
+.hero-unit h3 a {
+  color: #39d52d;
+  text-decoration: underline;
+}
+
+.arrow2 {
+  height: 30px;
+  width: 30px;
+}
+
 .hero-unit p {
   color: white;
   padding: 1px;
