@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Oneschott</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <ul class="nav">
+        <li><a href="https://www.mypelotonia.org/riders_profile.jsp?MemberID=238218&SearchStart=0&PAGING"><img src="/assets/arrow.png" class="arrow">  Go to Milton's Pelotonia Page</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+<div class="background">
+
+<%= yield %>
+</div>
+</body>
+</html>

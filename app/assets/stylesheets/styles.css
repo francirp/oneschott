@@ -1,0 +1,61 @@
+body {
+  margin: 50px 0 0 0;
+  background-image: url("http://pelotonia.org/wp-content/themes/pelotonia-2012/images/bg-body.png");
+}
+
+nav ul li a {
+  color: #39d52d;
+}
+
+header {
+  background-image: url("/assets/header.png");
+  height: 50px;
+  width: 920px;
+  border: thin solid #ccc;
+}
+
+.left-col {
+  width: 600px;
+  padding: 5px 5px 5px 10px;
+}
+
+img {
+  -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.right-col {
+  width: 300px;
+  padding: 5px 10px 5px 5px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #36424a;
+}
+
+h2 {
+  color: #39d52d;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.right-pic {
+  height: 448px;
+}
+
+.arrow {
+  height: 24px;
+  width: 24px;
+}
